@@ -10,4 +10,4 @@ Twitter recently made the For You tab the default on pageload, which was easy to
 4. enable developer mode (top right)
 5. click "Load Unpacked" (top left) and select the twitter-always-following-extension folder
 
-After installation, the home tab should always load in the  Following tab.
+After installation, the Twitter home should always load in the  Following tab.
