@@ -1,0 +1,17 @@
+{
+  "name": "Twitter Always Following",
+  "description": "Automatically puts you in the Following tab on pageload",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "following.png"
+  },"content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://twitter.com/home"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
